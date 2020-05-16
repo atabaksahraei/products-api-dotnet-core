@@ -1,20 +1,21 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
-using ProductsAPI.Services;
 
 
 namespace ProductsAPI.Controllers
 {
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
+            using ProductsAPI.Services;
+
     [ApiController]
     [Route("[controller]")]
     public class ProductsController : ControllerBase
     {
 
-        private ILogger _logger;
+                 private ILogger _logger;
         private IProductsService _service;
 
         
