@@ -17,3 +17,19 @@
     9. Use .editorconfig compatibility mode
 
 # show rules and refactoring
+    1. go to: Error List
+    2. Sort by: Code
+    3. show by grouping
+    4. show refactoring and fix issues for Solution: SA1137, (SA1121+IDE0049), IDE 0055
+    5. show generate doc
+    6. empty return value
+    7. set on error
+    8. remove return value and setup rule
+    9. Product Controller remove logger
+    10. generate fields
+
+
+
+
+
+    11. null validation
