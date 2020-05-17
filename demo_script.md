@@ -26,10 +26,25 @@
     7. set on error
     8. remove return value and setup rule
     9. Product Controller remove logger
-    10. generate fields
-
-
-
-
-
+    10. generate fields *add to editor
     11. null validation
+
+
+
+
+
+
+
+## underscore
+dotnet_naming_rule.instance_fields_should_be_camel_case.severity = suggestion
+dotnet_naming_rule.instance_fields_should_be_camel_case.symbols = instance_fields
+dotnet_naming_rule.instance_fields_should_be_camel_case.style = instance_field_style
+ 
+dotnet_naming_symbols.instance_fields.applicable_kinds = field
+ 
+dotnet_naming_style.instance_field_style.capitalization = camel_case
+dotnet_naming_style.instance_field_style.required_prefix = _
+
+## null validation
+dotnet_diagnostic.CA1062.severity = warning
+
